@@ -1,4 +1,3 @@
-
 import streamlit as st
 from streamlit_option_menu import option_menu
 import easyocr
@@ -159,7 +158,7 @@ elif select == "Upload & Modify":
             sqlconnection = mysql.connector.connect(
                 host='localhost',
                 user='root',
-                password='12345678',
+                password='**your own password**',
                 database='bizcard_data'
             )
             cursor = sqlconnection.cursor()
@@ -199,7 +198,7 @@ elif select == "Upload & Modify":
         sqlconnection = mysql.connector.connect(
                 host='localhost',
                 user='root',
-                password='12345678',
+                password='**your own password**',
                 database='bizcard_data'
             )
         cursor = sqlconnection.cursor()
@@ -218,7 +217,7 @@ elif select == "Upload & Modify":
         sqlconnection = mysql.connector.connect(
                 host='localhost',
                 user='root',
-                password='12345678',
+                password='**your own password**',
                 database='bizcard_data'
             )
         cursor = sqlconnection.cursor()
@@ -275,7 +274,7 @@ elif select == "Upload & Modify":
                 sqlconnection = mysql.connector.connect(
                 host='localhost',
                 user='root',
-                password='12345678',
+                password='**your own password**',
                 database='bizcard_data'
                 )
                 cursor = sqlconnection.cursor()
@@ -299,7 +298,7 @@ elif select == "Delete":
         sqlconnection = mysql.connector.connect(
         host='localhost',
         user='root',
-        password='12345678',
+        password='**your own password**',
         database='bizcard_data'
         )
         cursor = sqlconnection.cursor()
